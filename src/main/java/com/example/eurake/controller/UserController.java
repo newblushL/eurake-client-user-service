@@ -12,7 +12,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class UserController {
 
     @GetMapping("/user/hello")
-    public String helleo(){
+    public String hello(){
         return "hello";
     }
 

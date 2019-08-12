@@ -14,6 +14,6 @@ public class CustomHealthIndicator extends AbstractHealthIndicator {
 
     @Override
     protected void doHealthCheck(Health.Builder builder) throws Exception {
-        builder.down().withDetail("status", false);
+        builder.up().withDetail("status", false);
     }
 }
